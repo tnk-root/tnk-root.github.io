@@ -1,0 +1,28 @@
+body {
+  background-color: #ffffff;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+#columns {
+  display: flex;
+  justify-content: space-around;
+}
+.column {
+  
+  width: 30%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  
+  /* width: 100%; /* Set the column's width to take up its container's full width */
+  /*height: auto; /* Allow the height to adjust based on aspect ratio of image */
+ 
+  /*background-size: cover;
+  /*background-position: center;
+  /*height: 300px; /* Adjust this as needed */
+  /*flex: 1; /* This allows the columns to take up equal width */
+  
+}
